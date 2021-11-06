@@ -65,7 +65,7 @@ export default function Create() {
                     type="submit"
                     color="secondary"
                     variant="contained"
-                    endIcon={<KeyboardArrowRight />}
+                    endIcon={<KeyboardArrowRightIcon />}
                 >
                     Submit
                 </Button>
