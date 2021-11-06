@@ -42,7 +42,7 @@ export default function Create() {
 
             <form noValidate autoComplete="off" onSubmit={handleSubmit}>
                 <TextField
-                    onChange={(e) => setTitle(e.target.value)}
+                    onChange={(e: ChangeEvent<HTMLInputElement>) => setTitle(e.target.value)}
                     label="Note Title"
                     variant="outlined"
                     color="secondary"
@@ -51,7 +51,7 @@ export default function Create() {
                     error={titleError}
                 />
                 <TextField
-                    onChange={(e) => setDetails(e.target.value)}
+                    onChange={(e: ChangeEvent<HTMLInputElement>) => setDetails(e.target.value)}
                     label="Details"
                     variant="outlined"
                     color="secondary"
