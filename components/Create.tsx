@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import TextField from '@mui/material/TextField';
-import KeyboardArrowRightIcon from '@mui/material-icons/KeyboardArrowRight';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Typography from '@mui/material/Typography';
 
 
@@ -65,7 +65,7 @@ export default function Create() {
                     type="submit"
                     color="secondary"
                     variant="contained"
-                    endIcon={<KeyboardArrowRightIcon />}
+                    endIcon={<KeyboardArrowRight />}
                 >
                     Submit
                 </Button>
