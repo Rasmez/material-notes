@@ -42,22 +42,22 @@ export default function Create() {
 
             <form noValidate autoComplete="off" onSubmit={handleSubmit}>
                 <TextField
-                    onChange={(e: ChangeEvent<HTMLInputElement>) => setTitle(e.target.value)}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTitle(e.target.value)}
                     label="Note Title"
                     variant="outlined"
                     color="secondary"
-                    fullWith
+                    fullWidth
                     required
                     error={titleError}
                 />
                 <TextField
-                    onChange={(e: ChangeEvent<HTMLInputElement>) => setDetails(e.target.value)}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDetails(e.target.value)}
                     label="Details"
                     variant="outlined"
                     color="secondary"
                     multiline
                     rows={4}
-                    fullWith
+                    fullWidth
                     required
                     error={detailsError}
                 />
