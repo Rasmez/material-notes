@@ -12,7 +12,7 @@ export default function Create() {
     const [details, setDetails] = useState('')
     const [titleError, setTitleError] = useState(false)
     const [detailsError, setDetailsError] = useState(false)
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: ChangeEvent<HTMLInputElement>) => {
         e.preventDefault()
         setTitleError(false)
         setDetailsError(false)
